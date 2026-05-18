@@ -1,0 +1,71 @@
+h1
+{
+    margin-bottom: 2%;
+
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cast-member
+{
+    margin-bottom: 2%;
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2%;
+}
+
+.cast-member img
+{
+    width: 35%;
+    height: 650px;
+    padding: 2%;
+
+    display: inline-block;
+    text-align: left; 
+}
+
+.cast-member-info 
+{
+    width: 60%;
+    padding-top: 2%;
+
+    display: inline-block;
+    vertical-align: top;
+    color: antiquewhite; 
+}
+
+.cast-member-info p
+
+{
+    margin-bottom: 3%;
+
+    font-size: 24px;
+    text-align: left;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cast-member-info h2
+
+{
+    margin-bottom: 3%;
+
+    font-size: 35px;
+    color: goldenrod;
+}
+
+
+#reparto
+{
+    margin-bottom: 7%;
+
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#reparto ul
+{
+    font-size: 22px;
+}
