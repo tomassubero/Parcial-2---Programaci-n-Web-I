@@ -23,6 +23,8 @@ h3
 {
     margin: 2%;
     padding-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .article-text-right img
@@ -31,7 +33,6 @@ h3
     height: 480px;
     padding: 2%;
 
-    display: inline-block;
     text-align: left;
 }
 
@@ -45,8 +46,6 @@ h3
     width: 48%;
     padding-top: 2%;  
 
-    display: inline-block;
-    vertical-align: top;
     color: antiquewhite;
     word-spacing: 3%;
     line-height: 1.4;
@@ -58,16 +57,14 @@ h3
 {
     margin: 2%;
     padding-bottom: 5%;
-
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .article-text-left img
 {
     width: 48%;
     height: 480px;
-
-    display: inline-block;
-    text-align: left;
 }
 
 .article-text-left p
@@ -79,48 +76,8 @@ h3
 {
     width: 48%;
     padding: 0% 2%;
-
-    display: inline-block;
-    vertical-align: top;
     color: antiquewhite;
     word-spacing: 3%;
     line-height: 1.4;
 }
 
-#intro
-{
-    width: 50%;
-    margin: 0% 25%;
-    padding: 3%;
-
-    background-color:black;
-    border-style: ridge;
-    border-radius: 5%;
-    border-color: silver;
-   
-}
-
-#intro h2
-{
-    margin-bottom: 3%;
-
-    color: antiquewhite;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#intro p
-{
-    margin-bottom: 3%;
-    
-    color: antiquewhite;
-    font-size: 20px;
-    text-align: left;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-
-    word-spacing: 3%;
-    line-height: 1.4;
-}

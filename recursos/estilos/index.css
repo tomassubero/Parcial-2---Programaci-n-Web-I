@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .imagenes-index
@@ -26,7 +25,7 @@
     display: block;
 }
 
-.imagenes-index img:hover, a:hover
+.imagenes-index img:hover
 {
     cursor: url('../img/gauntlet.png'), pointer;
     opacity: 0.5; 
@@ -46,12 +45,19 @@
     
 }
 
+
 #sinopsis
 {
-    width: 40%;
-    padding: 2%;
-    margin: 0% 30% 3% 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
 
+#sinopsis article
+{
+    padding: 2%;
+    width: 40vw;
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-position: center;
@@ -62,7 +68,7 @@
     border-radius: 3%;
     border-color: cornsilk;
 
-    font-size: 25px;
+    font-size: 2rem;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(1, 1, 1);
     font-family: "Roboto Condensed", sans-serif;
@@ -70,6 +76,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 
 #sinopsis h2 
 {
@@ -80,4 +87,21 @@
 {
     padding: 2%;
     line-height: 1.5;
+}
+
+#soundtrack
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    border-style: inset;
+    border-radius: 15px;
+}
+
+#soundtrack iframe 
+{
+    width: 100%;
+    height: 352px;
+    border-radius: 15px;
+    border: none;
 }
