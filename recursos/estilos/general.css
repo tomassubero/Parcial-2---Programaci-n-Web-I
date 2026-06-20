@@ -22,7 +22,7 @@ a
     text-decoration: none;
 }
 
- a:hover
+ a:hover, button:hover
  {
     cursor: url('../img/gauntlet.png'), pointer;
     opacity: 0.5;
