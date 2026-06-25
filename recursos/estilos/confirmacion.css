@@ -1,0 +1,15 @@
+section
+{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+}
+
+ a:hover, button:hover
+ {
+    cursor: url('../img/gauntlet.png'), pointer;
+    opacity: 0.8;
+ }
+

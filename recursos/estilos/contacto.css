@@ -4,3 +4,21 @@ h1
     text-align: center;
 }
 
+label
+{
+    color: antiquewhite;
+}
+
+li
+{
+    padding: 1%;
+}
+
+form
+{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+
