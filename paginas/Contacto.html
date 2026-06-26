@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lord of The Rings: The Return of The King</title>
     <link rel="stylesheet" href="../recursos/estilos/general.css">
+    <link rel="stylesheet" href="../recursos/estilos/fuentes.css">
     <link rel="stylesheet" href="../recursos/estilos/contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="icon" href="../recursos/favicons/palantir.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Metamorphous&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link rel="icon" href="../recursos/favicons/palantir.jpg">
 </head>
 <body>
     <header>
@@ -21,12 +25,12 @@
     <hr>
     <main>
         <img src="../recursos/img/Gandalf (1).jpg" alt="Gandalf arriving Gondor" id="banner">
-        <h1>Form de contacto: </h1>
-        <section>
+        <h1 class="font-title">Form de contacto: </h1>
+        <section id="form-section">
             <form action="../paginas/confirmacion.html">
                 <ul class="roboto-condensed-serif">
                     <li>
-                        <label class="">Ingresa tu email:
+                        <label>Ingresa tu email:
                             <input required type="email" autocomplete="off">
                         </label>
                     </li>
@@ -48,9 +52,7 @@
                             <textarea rows="4" cols="50"></textarea>
                         </label>
                     </li>
-                   
-                    <button type="submit" class="metamorphous-regular">Enviar</button>
-                   
+                    <button type="submit" class="roboto-condensed-serif">Enviar</button>
                 </ul>
             </form>
         </section>

@@ -1,3 +1,6 @@
+
+
+
 .expositor-imagenes
 {
     margin: 0 2%;
@@ -83,7 +86,7 @@
 #sinopsis article
 {
     padding: 2%;
-    width: 40vw;
+    width: 50vw;
     background-image: url(../img/background.jpg);
     background-size: cover;
     background-position: center;
@@ -94,13 +97,8 @@
     border-radius: 3%;
     border-color: cornsilk;
 
-    font-size: 2rem;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(1, 1, 1);
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 
@@ -113,6 +111,7 @@
 {
     padding: 2%;
     line-height: 1.5;
+    font-size: 2rem;
 }
 
 #soundtrack

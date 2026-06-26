@@ -9,8 +9,8 @@
     margin-bottom: 2%;
 
     color: goldenrod;
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-family: "Uncial Antiqua", system-ui;
 }
 
 .fun-fact img
@@ -24,12 +24,7 @@
     margin-bottom: 3%;
 
     color: antiquewhite;
-    font-size: 20px;
     text-align: left;
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 
     word-spacing: 3%;
     line-height: 1.4;
