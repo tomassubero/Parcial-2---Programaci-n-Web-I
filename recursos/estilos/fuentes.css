@@ -26,3 +26,31 @@
     font-size: 3rem;
     color: whitesmoke;
 }
+
+@media (max-width: 768px)
+{
+    .metamorphous-regular
+    { 
+        font-size: 1.4rem;
+    }
+    .font-title
+    {
+        font-size: 2.2rem;
+    }
+    .roboto-condensed-serif
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .font-title
+    {
+        font-size: 1.7rem;
+    }
+    .roboto-condensed-serif
+    {
+        font-size: 1rem;
+    }
+}
