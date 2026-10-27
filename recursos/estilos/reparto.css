@@ -67,7 +67,8 @@
 
      .cast-member img
     {
-        width: 40%
+        width: 40%;
+        height: auto;
     }
 
     .cast-member-info 

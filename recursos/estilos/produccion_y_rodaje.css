@@ -70,3 +70,32 @@ h3
     line-height: 1.4;
 }
 
+@media (max-width: 900px)
+{
+    .article-text-right,
+    .article-text-left
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-text-left
+    {
+        flex-direction: column-reverse;
+    }
+
+    .article-text-left img, 
+    .article-text-right img
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .location-text-right,
+    .location-text-left
+
+    {
+        width: 90%;
+    }
+
+}
