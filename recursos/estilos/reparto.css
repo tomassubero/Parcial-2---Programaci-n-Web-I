@@ -50,3 +50,34 @@
 {
     font-size: 1.5rem;
 }
+
+@media (max-width: 900px)
+{
+    #reparto ul 
+    {
+        font-size: 1.1rem;
+    }
+    
+    .cast-member
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+     .cast-member img
+    {
+        width: 40%
+    }
+
+    .cast-member-info 
+    {
+        width: 90%;
+    }
+
+    .cast-member-info h2,
+    .cast-member-info p
+    {
+        text-align: center;
+    }
+}
