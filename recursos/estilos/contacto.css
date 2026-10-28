@@ -22,4 +22,14 @@ ul
     text-align: center;
 }
 
-
+@media (max-width: 600px)
+{
+    #form-section
+    {
+        padding: 0 5%; 
+    }
+    textarea 
+    { 
+        width: 100%; 
+    }
+}
