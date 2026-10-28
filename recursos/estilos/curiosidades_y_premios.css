@@ -29,3 +29,15 @@
     word-spacing: 3%;
     line-height: 1.4;
 }
+
+@media (max-width: 900px)
+{
+    .fun-fact img
+    {
+        width: 80%; 
+    }
+    .fun-fact p 
+    {
+        padding: 2% 10%;
+    }
+}
