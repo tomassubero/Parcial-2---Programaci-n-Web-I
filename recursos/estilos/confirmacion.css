@@ -7,9 +7,18 @@ section
     gap: 2rem;
 }
 
- a:hover, button:hover
- {
-    cursor: url('../img/gauntlet.png'), pointer;
-    opacity: 0.8;
- }
 
+@media (max-width: 600px)
+{
+    section
+    {
+        margin-top: 20%;
+        padding: 0 5%;
+        text-align: center;
+    }
+    section img
+    {
+        width: 90%;
+        height: auto;
+    }
+}
