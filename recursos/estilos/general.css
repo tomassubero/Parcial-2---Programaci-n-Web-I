@@ -29,7 +29,7 @@ a
  a:hover, button:hover
  {
     cursor: url('../img/gauntlet.png'), pointer;
-    opacity: 0.5;
+    opacity: 0.8;
  }
 
 footer
